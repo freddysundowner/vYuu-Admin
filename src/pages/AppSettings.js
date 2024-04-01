@@ -32,8 +32,8 @@ const AppSettings = () => {
                 Video/Audio Stream settings
               </h1>
               <h2 className="text-sm text-gray-500 dark:text-gray-300">
-                Tokshop uses Agora to stream video and Audio, for more
-                information refer to agora documentation{" "}
+                Vyuu uses Agora to stream video and Audio, for more information
+                refer to agora documentation{" "}
                 <a href="https://docs.agora.io/en/" target="_blank">
                   Here
                 </a>

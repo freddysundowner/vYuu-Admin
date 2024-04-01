@@ -6,9 +6,9 @@
   "scope": ".",
   "start_url": ".",
   "id": ".",
-  "short_name": "TokShop - Admin",
-  "name": "TokShop",
-  "description": "TokShop admin panel",
+  "short_name": "Vyuu - Admin",
+  "name": "Vyuu",
+  "description": "Vyuu admin panel",
   "icons": [
     {
       "src": "/icon-192x192.png",

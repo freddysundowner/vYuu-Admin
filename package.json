@@ -1,7 +1,7 @@
 {
-  "name": "tokshop",
+  "name": "vyuu",
   "version": "0.1.0",
-  "description": "Live shopping with tokshop",
+  "description": "Live shopping with vyuu",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",

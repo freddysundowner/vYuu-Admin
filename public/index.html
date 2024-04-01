@@ -7,31 +7,28 @@
     <meta name="theme-color" content="#000000" />
 
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.png" />
-    <meta name="description" content="TokShop - Admin Panel" />
-    <meta
-      property="og:title"
-      content="TokShop - Admin Panel"
-    />
-    <meta property="og:type" content="TokShop - Admin Panel" />
-    <meta property="og:url" content="https://tokshop.com" />
+    <meta name="description" content="Vyuu - Admin Panel" />
+    <meta property="og:title" content="Vyuu - Admin Panel" />
+    <meta property="og:type" content="Vyuu - Admin Panel" />
+    <meta property="og:url" content="https://vyuu.com" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <title>TokShop - Admin Panel</title>
+    <title>Vyuu - Admin Panel</title>
   </head>
   <body class="antialiased">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
 
     <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
           navigator.serviceWorker
-            .register('./serviceworker.js')
-            .then((reg) => console.log('Success: ', reg.scope))
-            .catch((err) => console.log('Failure: ', err));
+            .register("./serviceworker.js")
+            .then((reg) => console.log("Success: ", reg.scope))
+            .catch((err) => console.log("Failure: ", err));
         });
       }
     </script>

@@ -16,7 +16,7 @@ const Login = () => {
             <main className="flex items-center justify-center p-6 sm:p-12 md:w-1/1">
               <div className="w-1/2 ">
                 <h1 className="flex justify-center text-2xl items-center font-semibold text-gray-700 dark:text-gray-200">
-                  TokShop Admin
+                  Vyuu Admin
                 </h1>
 
                 <form onSubmit={handleSubmit(onSubmit)}>
@@ -42,7 +42,7 @@ const Login = () => {
                   />
                   <Error errorName={errors.password} />
                   <div className="mt-6"></div>
-                  
+
                   <Button
                     disabled={loading}
                     type="submit"
